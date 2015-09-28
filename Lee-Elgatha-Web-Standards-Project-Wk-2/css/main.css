@@ -1,0 +1,205 @@
+
+/* 
+================================================================================
+WSP COMPONENT LIBRARY STYLESHEET
+================================================================================ */
+/*
+================================================================================
+CSS RESET
+================================================================================ */
+html, body, div, main, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, textarea,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video,
+::before, ::after {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+
+}
+
+/* HTML5 - Older browser support ======================================== */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* HEADER ======================================== */
+
+header img{
+    width:30%;
+    padding-top:1%;
+    padding-bottom:2%;
+}
+
+/* BODY ======================================== */
+body { line-height: 1; }
+
+/* LISTS - Clear bullets ======================================== */
+ol, ul { list-style: none; }
+
+/* QUOTES ======================================== */
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* TABLES ======================================== */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* GLOBAL STYLES ======================================== */
+body {
+    background: #5a5a5a;
+    max-width: 90%;
+    font-size: 1em;
+    margin: 0 auto;
+}
+
+#wrapper {
+    background-color: whitesmoke;
+    width: 77.666667%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+strong{
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+/* HEADER ======================================== */
+
+#about{
+    font-family: 'Raleway', cursive;
+    color: #5a5a5a;
+    background-color:white;
+}
+
+#about img{
+    background-color:#5a5a5a;
+    width:25%;
+    border-radius: 14em;
+    border: 11px double #5a5a5a;
+    margin-top: 5%;
+    margin-left:3%;
+}
+
+#about p{
+    float:left;
+    font-family:'Raleway', sans-serif;
+    width: 55%;
+    margin-top: -14%;
+    margin-left:5%;
+    line-height: 22px;
+}
+
+/* FONTS ======================================== */
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 8.5em;
+    text-align:center;
+    padding-top:2%;
+    color:#5a5a5a;
+    float: left;
+    margin-left: 8%;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size:2em;
+    color: #5a5a5a;
+    padding-bottom:2%;
+    clear:both;
+    margin-left: 3%;
+}
+
+p {
+	 font-family: 'Raleway', sans-serif;
+	 font-size: 1em;
+}
+
+/* BLOG SECTION ======================================== */
+
+section {
+    width: 90%;
+    padding-bottom:1%;
+    padding-left:2%;
+}
+
+section:first-of-type{
+    padding-top:3%;
+}
+
+section h2{
+}
+
+section img{
+    padding-bottom:2%;
+    max-width: 100%;
+    border: 3px double #5a5a5a;
+    padding: 5px;
+    margin-bottom: 4%;
+    border-radius: 5px;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+section p{
+    padding-bottom:2%;
+    font-family: 'Raleway';
+    line-height: 17px;
+    font-size: 1em;
+    width: 100%;
+    margin-left: 3%;
+}
+
+hr{
+    margin-top: 10%;
+    margin-bottom: 3%;
+    background-color:#5a5a5a;
+}
+
+/* BUTTON ======================================== */
+
+.myButton {
+    background-color: #ccc;
+    border-radius:6px;
+    border: 1px solid #5a5a5a;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:18px;
+    font-weight:bold;
+    padding:10px 20px;
+    text-decoration:none;
+    font-family: 'Raleway';
+    float: right;
+}
+.myButton:hover {
+    background-color: rgb(177, 4, 4);
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
